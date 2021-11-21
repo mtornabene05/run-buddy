@@ -70,6 +70,8 @@ section {
 }
 
 /* Hero Style Starts */
+
+/*homepage hero*/
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
