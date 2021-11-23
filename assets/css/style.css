@@ -148,10 +148,11 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -163,9 +164,6 @@ section {
 }
 
 /*What We Do Style*/
-.intro {
-    text-align: center;
-}
 
 .intro p {
     line-height: 1.7;
@@ -173,12 +171,12 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 /* What We Do Style Ends */
 
 /*What You Do Style*/
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -208,9 +206,6 @@ section {
 /*What You Do Style Ends*/
 
 /*Meet the Trainers Style*/
-.trainers {
-    text-align: center;
-}
 
 .trainer {
     width: 900px;
@@ -259,7 +254,6 @@ section {
 /*Reach Out Style*/
 .contact {
     background-color: #024e76;
-    text-align: center;
 }
 
 .contact h2 {
@@ -296,3 +290,7 @@ section {
     color: #fce138;
 }
 /*Reach Out Style Ends*/
+
+.flex-row {
+    display: flex;
+}
